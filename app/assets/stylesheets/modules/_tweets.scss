@@ -54,7 +54,8 @@
     margin-top: 0;
     margin-bottom: 0;
     max-width: 660px;
-    height: calc(100vh - 16.5vh);
+    height: calc(100vh - 14vh);
+    overflow: scroll;
     .ccc{
       color: #D8D8D8;
       display: flex;
@@ -102,6 +103,13 @@
         border: 0;
         font-size: 18px;
         height: 50px;
+      }
+      .ggg{
+        width: 96.5%;
+          margin: 5px 10px 15px;
+          padding: 10px;
+          border-radius: 5px;
+          font-family: "游ゴシック", "YuGothic";
       }
     }
   }
